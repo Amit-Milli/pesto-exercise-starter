@@ -12,5 +12,4 @@ describe('isTriangle', () => {
   it('should throw an error if wrong input is given', () => {
     expect(isTriangle(1, 4, '2')).toBe('Invalid arguments');
   });
-
 });
