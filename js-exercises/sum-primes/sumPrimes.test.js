@@ -8,4 +8,8 @@ describe('sumPrimes', () => {
     expect(sumPrimes(10)).toBe(17);
     expect(sumPrimes(977)).toBe(73156);
   });
+  test('should throw error on wrong input', () => {
+    expect(sumPrimes(0)).toBe('Invalid Arguments');
+    expect(sumPrimes({})).toBe('Invalid arguments');
+  });
 });
