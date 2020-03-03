@@ -10,5 +10,6 @@ describe('sumFibs', () => {
     expect(sumFibs(4000000)).toBe(4613732);
     expect(sumFibs(4)).toBe(5);
     expect(sumFibs(75024)).toBe(60696);
+    expect(sumFibs({})).toBe('Invalid arguments');
   });
 });
